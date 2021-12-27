@@ -1,6 +1,6 @@
 {
-  "name": "html-to-draftjs",
-  "version": "1.5.0",
+  "name": "@phen0menon/html-to-draftjs",
+  "version": "1.5.3",
   "main": "dist/html-to-draftjs.js",
   "repository": {
     "type": "git",
@@ -38,6 +38,6 @@
     "clean": "rimraf dist",
     "build": "npm run clean && webpack --mode production --config config/webpack.config.js"
   },
-  "author": "Jyoti Puri",
+  "author": "phen0menon",
   "license": "MIT"
 }
